@@ -29,15 +29,16 @@ body{
 .left-section .text-section {
     font-size:25px;
     color: #313c4e;
-   padding: 35px;
+    padding: 35px;
 }
 
 .right-section{
-   margin: 0px 0px 0px -31px;
-    padding: 4rem 12rem;
-    width: 42rem;
+    padding:2.5rem 8.125rem;
+    width: 43rem;
     flex-direction: column;
     display: flex;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .right-section .logo-section i{
@@ -47,6 +48,16 @@ body{
 
 .right-section .logo-section h1{
     color:#313c4e;
+}
+
+.right-section .logo-section .welcome-section h1{
+    color:#313c4e ;
+    font-size: 23px;
+ 
+}
+
+.form-section{
+    margin-top: 20px;
 }
 
 /* .profile-section{
