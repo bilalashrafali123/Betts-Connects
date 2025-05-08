@@ -24,6 +24,9 @@ body{
 .left-section {
     width: 40%;
     background-color:#f6a192;
+    background-image: url("https://betts-connect-dev.pt-staging.com/assets/images/auth-profile-bg.png");
+    background-position: bottom left;
+    background-repeat:no-repeat;
 }
 
 .left-section .text-section {
@@ -217,7 +220,7 @@ body{
     }
 }
 
-/* .profile-section{
+
    
-} */
+
 
