@@ -156,6 +156,10 @@ body{
         margin: 20px;
     }
 
+    .logo-section h1{
+        text-align: center;
+    }
+
     .left-section {
         display: none;
     }
@@ -184,6 +188,10 @@ body{
 @media (max-width: 765px) {
     .right-section {
         padding: 1.5rem 1rem;
+    }
+
+    .logo-section h1{
+        text-align: center;
     }
 
     .form-section input,
