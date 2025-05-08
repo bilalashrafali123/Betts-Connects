@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,23 +9,28 @@ body{
      justify-content: center;
      align-items: center;
      height: 100vh;
-     background-color:  #004f8f;
+     background-color:#04467c;
      font-family: sans-serif;
-    
-}
+} 
 
-.wrapper{
-    width: 1000px;
-    height: 500px;
+.wrapper {
+    display: flex;
+    width: 1200px;
+    height: 700px;
     background-color: white;
-    box-shadow: 0 4px px rgb(255, 245, 245);;
-  
-}
-.left-section{
-  flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.left-section h1{
-    padding: 50px 50px 40px;
-    font-size: 46px;
+.left-section {
+    /* width: 50%; */
+    background-color: rgb(249, 151, 77);
 }
+
+.left-section h1 {
+    font-size: 3.5rem;
+    color: #313c4e;
+    line-height: 3.5rem;
+    padding: 20px;
+}
+
+
