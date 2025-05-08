@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color:  #004f8f;
+     font-family: sans-serif;
+    
+}
+
+.wrapper{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px px rgb(255, 245, 245);;
+  
+}
+.left-section{
+  flex-direction: column;
+}
+
+.left-section h1{
+    padding: 50px 50px 40px;
+    font-size: 46px;
+}
