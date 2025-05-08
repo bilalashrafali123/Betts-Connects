@@ -9,28 +9,50 @@ body{
      justify-content: center;
      align-items: center;
      height: 100vh;
-     background-color:#04467c;
+     background-color:#01325ad3;
      font-family: sans-serif;
 } 
 
 .wrapper {
     display: flex;
-    width: 1200px;
-    height: 700px;
+    width: 1100px;
+    height: 630px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .left-section {
-    /* width: 50%; */
+    width: 40%;
     background-color: rgb(249, 151, 77);
 }
 
-.left-section h1 {
-    font-size: 3.5rem;
+.left-section .text-section {
+    font-size:25px;
     color: #313c4e;
-    line-height: 3.5rem;
-    padding: 20px;
+   padding: 35px;
 }
+
+.right-section{
+   margin: 0px 0px 0px -31px;
+    padding: 4rem 12rem;
+    width: 42rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.right-section .logo-section i{
+    color: rgb(238, 133, 52) ;
+}
+
+
+.right-section .logo-section h1{
+    color:#313c4e;
+}
+
+/* .profile-section{
+   
+} */
+
+
 
 
